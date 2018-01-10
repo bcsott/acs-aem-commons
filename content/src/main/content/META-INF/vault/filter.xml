@@ -87,4 +87,8 @@
     <filter root="/var/acs-commons/rep:policy"/>
     <filter root="/apps/dam/gui/content/assets/metadataeditor/jcr:content/content/items/col1/items/copypublishurl"/>
     <filter root="/apps/dam/gui/content/assets/metadataeditor/jcr:content/content/items/col1/dialogpublishurl"/>
+    
+    <filter root="/conf/acs-aem-commons-testcontent"/>
+    <filter root="/content/acs-aem-commons-testcontent"/>  
+    <filter root="/etc/workflow/models/acs-aem-commons-testcontent"/>
 </workspaceFilter>

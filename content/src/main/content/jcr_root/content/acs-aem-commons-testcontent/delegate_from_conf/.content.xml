@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content 
+        cq:conf="/conf/acs-aem-commons-testcontent"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Testpage with conf workflow id"
+        contentWorkflowId="/etc/workflow/models/acs-aem-commons-testcontent/2_content_wf"/>
+</jcr:root>

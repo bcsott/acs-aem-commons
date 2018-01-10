@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/default"
+        cq:lastModified="{Date}2018-01-10T10:06:24.006+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/workflow/templates/model"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="1_confwf"
+        sling:resourceType="cq/workflow/components/pages/model">
+        <flow
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <noopprocess
+                jcr:created="{Date}2018-01-10T10:06:17.565+01:00"
+                jcr:createdBy="admin"
+                jcr:description="A no operation process"
+                jcr:lastModified="{Date}2018-01-10T10:06:24.003+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="1 conf wf"
+                sling:resourceType="cq/workflow/components/workflow/noopprocess"
+                PROCESS="/etc/workflow/scripts/noop.ecma"
+                PROCESS_AUTO_ADVANCE="true">
+                <metaData
+                    jcr:primaryType="nt:unstructured"
+                    PROCESS="/etc/workflow/scripts/noop.ecma"
+                    PROCESS_AUTO_ADVANCE="true"/>
+            </noopprocess>
+        </flow>
+        <model/>
+    </jcr:content>
+</jcr:root>
